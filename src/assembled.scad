@@ -86,7 +86,7 @@ color("White")
 
 module basement()
 {
-        color("Gray", 0.25)
+        color("Gray", 0.5)
 	union()
 	{
 		translate([-200,0,0])
@@ -98,7 +98,7 @@ module basement()
 
 module spool()
 {
-    color("Gray")
+    color("Gray", 0.5)
     difference()
     {
         union()
