@@ -1,4 +1,1 @@
-# Spool Holder
-
-Spool holder design for Engineer V2 3D printer.
-Designed in [OpenSCAD](http://www.openscad.org)
+# Spool HolderSpool holder design for [Engineer V2 3D printer](http://www.printers3d.ru/index.php?com=autoshop&elemId=142).![](https://raw.githubusercontent.com/kapitanov/spool_holder/master/preview.png)Designed in [OpenSCAD](http://www.openscad.org)
