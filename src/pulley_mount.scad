@@ -1,4 +1,5 @@
 include <vars.scad>
+use <pulley.scad>
 
 module pulley_mount()
 {
@@ -48,8 +49,15 @@ module pulley_mount()
     }
 }
 
-if(!_ASSEMBLY)
-{
-    color("Blue")
-    pulley_mount();
-}
+color("Blue")
+pulley_mount();
+
+color("Green")
+translate([24,50,5])
+rotate([0,0,90])
+pulley();
+
+color("Green")
+translate([24,95,7.5])
+rotate([0,0,90])
+pulley();

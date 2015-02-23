@@ -75,7 +75,4 @@ module side_support()
     }    
 }
 
-if(!_ASSEMBLY)
-{
-    side_support();
-}
+side_support();

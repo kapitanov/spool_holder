@@ -39,7 +39,4 @@ module connector()
     }
 }
 
-if(!_ASSEMBLY)
-{
-    connector();
-}
+connector();

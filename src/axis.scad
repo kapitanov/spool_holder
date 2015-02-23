@@ -7,7 +7,4 @@ module axis()
     cylinder(h = SIDE_WIDTH * 2 + SPOOL_WIDTH + RESERVE_H, r = AXIS_R - RESERVE_R, $fn = 16);
 }
 
-if(!_ASSEMBLY)
-{
-    axis();
-}
+axis();

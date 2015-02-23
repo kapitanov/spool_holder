@@ -39,7 +39,4 @@ module axis_cylinder()
     }
 }
 
-if(!_ASSEMBLY)
-{
-    axis_cylinder();
-}
+axis_cylinder();

@@ -35,8 +35,5 @@ module pulley()
     
 }
 
-if(!_ASSEMBLY)
-{
-    color("Blue")
-    pulley();
-}
+color("Blue")
+pulley();
